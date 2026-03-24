@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+    color: #8a0522c9;
+    font-size: 32px;
+    font-family: Lobster;
+    
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f68cc1de;
+    padding: 20px;
+}
+input[type="image"] {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

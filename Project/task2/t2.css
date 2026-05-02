@@ -1,0 +1,66 @@
+body {
+background-color: rgb(102, 111, 246); 
+display: flex;   
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Profile-card {
+    width: 350px; 
+    background-color: white;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0 ,0.1);
+    text-align: center;
+}
+.header {
+background-color:rgb(8, 8, 149);
+height: 160px;
+position: relative;
+display: flex;
+justify-content: center;
+}
+.profile-image {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 4px solid white;
+object-fit: cover;
+position: absolute;;
+}
+.buttons {
+display: flex;
+gap: 15px;
+justify-content: center;
+}
+.follow{
+background-color: rgb(7, 7, 73);
+color: azure;
+border: none;
+}
+.message{
+background-color: transparent;
+color: rgb(7,7,73);
+border: 2px solid rgb(7, 7, 73) ;
+}
+.content {
+  padding: 40px 30px 40px 30px; 
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin:0;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(8, 8, 149);
+    color: white;
+    border-radius: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: rgb(13, 13, 204);
+}
